@@ -5,6 +5,14 @@ import { HeroesComponent } from './heroes/heroes.component';
 
 const routes: Routes = [
   {
+    path: '',
+    loadChildren: './home/home.module#HomeModule'
+  },
+  {
+    path: 'about',
+    loadChildren: './about/about.module#AboutModule'
+  },
+  {
     path: 'heroes',
     component: HeroesComponent
   },
