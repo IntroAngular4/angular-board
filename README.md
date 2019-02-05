@@ -1,27 +1,51 @@
-# AngularBoard
+# Curso de introducción a Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.1.
+## 0 - Hola Angular CLI
 
-## Development server
+- Herramientas para crear y ejecutar una aplicación
+- Estructura de una aplicación Angular
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## 1 - Base para una aplicación Angular
 
-## Code scaffolding
+- Módulos y Componentes
+- Organización de una app para crecer
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 2 - Páginas y rutas Angular SPA
 
-## Build
+- Lazy loading
+- Parámetros, y nested routes
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## 3 - Formularios, tablas y modelos de datos
 
-## Running unit tests
+- Formularios y enlace entre vista y modelo
+- Directivas estructurales para crear informes
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 4 - Flujo de datos entre componentes Angular
 
-## Running end-to-end tests
+- Comunicación entre componentes de una página
+- Patrón Contenedor / Presentador
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## 5 - Servicios inyectables en Angular
 
-## Further help
+- Servicios, proveedores y dependencias
+- Inversión del control
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## 6 - Comunicaciones http en Angular
+
+- El servicio HttpClient
+- CRUD contra un API REST
+
+## 7 - Vigilancia y seguridad en Angular
+
+- Seguridad con interceptores
+- Vigilancia de datos con observables
+
+## 8 - Formularios reactivos
+
+- Desacople entre vista y modelo
+- Validaciones custom
+
+## 9 - Material Design
+
+- Layout
+- Components
