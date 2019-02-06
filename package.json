@@ -3,13 +3,17 @@
   "version": "7.0.3",
   "description": "Demo web application to learn Angular ;-)",
   "homepage": "https://trainingit.es/curso-angular-basico/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trainingit-introangular/angular-board"
+  },
   "author": {
     "name": "Alberto Basalo",
     "url": "https://twitter.com/albertobasalo"
   },
   "scripts": {
     "build:prod": "ng build --prod",
-    "build:pub": "ng build --prod --output-path docs --base-href https://academiabinaria.github.io/angular-board/",
+    "build:pub": "ng build --prod --output-path docs --base-href https://trainingit-introangular.github.io/angular-board/",
     "e2e": "ng e2e",
     "http-server": "http-server ./dist/angular-board/ -c-1 -p4271 -a localhost -o",
     "lint": "ng lint",
