@@ -4,7 +4,8 @@
 
 export const environment = {
   appName: 'Angular Board DEV',
-  production: false
+  production: false,
+  unitsCulture: 'usa'
 };
 
 /*
