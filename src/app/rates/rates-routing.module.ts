@@ -1,11 +1,16 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { ObseratesComponent } from './obserates/obserates.component';
 import { RatesComponent } from './rates/rates.component';
 
 const routes: Routes = [
   {
     path: '',
     component: RatesComponent
+  },
+  {
+    path: 'observables',
+    component: ObseratesComponent
   }
 ];
 
@@ -13,4 +18,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class RatesRoutingModule { }
+export class RatesRoutingModule {}
