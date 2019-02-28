@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styles: []
 })
 export class RatesComponent implements OnInit {
-  private urlapi = 'https://api.exchangeratesapi.io/latest';
+  private ratesAPi = 'https://api.exchangeratesapi.io/latest';
   private myRatesApi = 'https://api-base.herokuapp.com/api/pub/rates';
 
   public currentEuroRates: any = null;
@@ -20,7 +20,7 @@ export class RatesComponent implements OnInit {
   }
   private getCurrentEuroRates() {
     const currencies = 'USD,GBP,CHF,JPY';
-    const url = `${this.urlapi}?symbols=${currencies}`;
+    const url = `${this.ratesAPi}?symbols=${currencies}`;
     this.httpClient.get<any>(url).subscribe(apiResult => (this.currentEuroRates = apiResult));
   }
 
