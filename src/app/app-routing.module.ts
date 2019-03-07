@@ -29,6 +29,10 @@ const routes: Routes = [
     loadChildren: './rates/rates.module#RatesModule'
   },
   {
+    path: 'notifications',
+    loadChildren: './notifications/notifications.module#NotificationsModule'
+  },
+  {
     path: 'heroes',
     component: HeroesComponent
   },
