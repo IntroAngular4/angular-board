@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { HTTP_INTERCEPTORS } from '@angular/common/http';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { ErrorInterceptorService } from './error-interceptor.service';
@@ -9,7 +9,7 @@ import { SenderComponent } from './sender/sender.component';
 
 @NgModule({
   declarations: [SenderComponent, ReceiverComponent],
-  imports: [CommonModule, NotificationsRoutingModule, FormsModule],
+  imports: [CommonModule, NotificationsRoutingModule, FormsModule, HttpClientModule],
   providers: [
     {
       provide: HTTP_INTERCEPTORS,
