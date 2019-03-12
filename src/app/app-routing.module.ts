@@ -29,6 +29,10 @@ const routes: Routes = [
     loadChildren: './rates/rates.module#RatesModule'
   },
   {
+    path: 'security',
+    loadChildren: './security/security.module#SecurityModule'
+  },
+  {
     path: 'notifications',
     loadChildren: './notifications/notifications.module#NotificationsModule'
   },
