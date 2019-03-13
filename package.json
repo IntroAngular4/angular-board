@@ -13,6 +13,7 @@
   },
   "scripts": {
     "build:prod": "ng build --prod",
+    "build:prod:schemat": "ng build schemat --prod",
     "build:pub": "ng build --prod --output-path docs --base-href https://trainingit-introangular.github.io/angular-board/",
     "e2e": "ng e2e",
     "http-server": "http-server ./dist/angular-board/ -c-1 -p4271 -a localhost -o",
@@ -22,6 +23,7 @@
     "push": "git add * && git commit -m 'pub' && git push",
     "start:prod": "npm run build:prod && npm run http-server",
     "start": "ng serve -o --port 4270",
+    "start:schemat": "ng serve schemat -o --port 4271",
     "test": "ng test"
   },
   "private": true,
