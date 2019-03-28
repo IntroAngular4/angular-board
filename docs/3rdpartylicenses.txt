@@ -1,3 +1,18 @@
+@angular/common
+MIT
+
+@angular/core
+MIT
+
+@angular/forms
+MIT
+
+@angular/platform-browser
+MIT
+
+@angular/router
+MIT
+
 mini.css
 MIT
 MIT License
@@ -22,9 +37,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-
-@angular/forms
-MIT
 
 rxjs
 Apache-2.0
@@ -232,9 +244,6 @@ Apache-2.0
  
 
 
-@angular/common
-MIT
-
 tslib
 Apache-2.0
 Apache License
@@ -293,15 +302,6 @@ If the Work includes a "NOTICE" text file as part of its distribution, then any 
 
 END OF TERMS AND CONDITIONS
 
-
-@angular/platform-browser
-MIT
-
-@angular/router
-MIT
-
-@angular/core
-MIT
 
 zone.js
 MIT
