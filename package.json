@@ -1,6 +1,6 @@
 {
   "name": "angular-board",
-  "version": "7.7.2",
+  "version": "7.7.3",
   "description": "Demo web application to learn Angular ;-)",
   "homepage": "https://trainingit.es/curso-angular-basico/",
   "repository": {
@@ -14,7 +14,7 @@
   "scripts": {
     "build:prod": "ng build --prod",
     "build:prod:schemat": "ng build schemat --prod",
-    "build:pub": "ng build --prod --output-path docs --base-href https://trainingit-introangular-ed2.github.io/angular-board/",
+    "build:pub": "ng build --prod --output-path docs --base-href https://trainingit-introangular-ed3.github.io/angular-board/",
     "e2e": "ng e2e",
     "http-server": "http-server ./dist/angular-board/ -c-1 -p4271 -a localhost -o",
     "lint": "ng lint",
@@ -40,12 +40,12 @@
     "@angular/router": "~7.2.0",
     "core-js": "^2.5.4",
     "mini.css": "^3.0.1",
-    "rxjs": "~6.4.0",
+    "rxjs": "~6.5.2",
     "tslib": "^1.9.0",
     "zone.js": "~0.8.26"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^0.13.7",
+    "@angular-devkit/build-angular": "^0.13.9",
     "@angular/cli": "~7.3.0",
     "@angular/compiler-cli": "^7.2.7",
     "@angular/language-service": "~7.2.0",
