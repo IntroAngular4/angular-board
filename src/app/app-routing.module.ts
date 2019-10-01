@@ -6,35 +6,35 @@ import { HeroesComponent } from './heroes/heroes.component';
 const routes: Routes = [
   {
     path: '',
-    loadChildren: './home/home.module#HomeModule'
+    loadChildren: () => import('./home/home.module').then(m => m.HomeModule)
   },
   {
     path: 'about',
-    loadChildren: './about/about.module#AboutModule'
+    loadChildren: () => import('./about/about.module').then(m => m.AboutModule)
   },
   {
     path: 'car',
-    loadChildren: './car/car.module#CarModule'
+    loadChildren: () => import('./car/car.module').then(m => m.CarModule)
   },
   {
     path: 'contacts',
-    loadChildren: './contacts/contacts.module#ContactsModule'
+    loadChildren: () => import('./contacts/contacts.module').then(m => m.ContactsModule)
   },
   {
     path: 'converter',
-    loadChildren: './converter/converter.module#ConverterModule'
+    loadChildren: () => import('./converter/converter.module').then(m => m.ConverterModule)
   },
   {
     path: 'rates',
-    loadChildren: './rates/rates.module#RatesModule'
+    loadChildren: () => import('./rates/rates.module').then(m => m.RatesModule)
   },
   {
     path: 'security',
-    loadChildren: './security/security.module#SecurityModule'
+    loadChildren: () => import('./security/security.module').then(m => m.SecurityModule)
   },
   {
     path: 'notifications',
-    loadChildren: './notifications/notifications.module#NotificationsModule'
+    loadChildren: () => import('./notifications/notifications.module').then(m => m.NotificationsModule)
   },
   {
     path: 'heroes',
